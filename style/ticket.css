@@ -415,3 +415,69 @@ section hr {
   cursor: pointer;
   box-shadow: 10px 5px 10px 3px #10cd45;
 }
+.divs_parents{
+    width: 100%;
+    height: 100vh;
+    border: 1px solid grey;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.about_informatsion_people {
+  width: 1081.74px;
+  height: 19.07px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.621);
+}
+.about_informatsion_people .Owner {
+  width: 100px;
+  height: 19.07px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #878787;
+  margin-bottom: 12px;
+}
+.about_informatsion_people .End_date {
+  width: 150px;
+  height: 19.07px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #878787;
+  margin-left: 239px;
+  margin-bottom: 12px;
+}
+.about_informatsion_people .Profits {
+  width: 72.35px;
+  height: 19.07px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #878787;
+  margin-left: 158px;
+  margin-bottom: 12px;
+}
+.about_informatsion_people .Losses {
+  width: 72.35px;
+  height: 19.07px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.2px;
+  text-align: left;
+  color: #878787;
+  margin-left: 157px;
+  margin-bottom: 12px;
+}
