@@ -19,6 +19,7 @@ body {
   width: 255px;
   height: 1100px;
   background: #363740;
+  cursor: pointer;
 }
 .img_logo {
   width: 206px;
@@ -293,6 +294,7 @@ section hr {
   display: flex;
   align-items: center;
   margin-top: 31px;
+  cursor: pointer;
 }
 .head .icon {
   width: 30px;
@@ -415,14 +417,14 @@ section hr {
   cursor: pointer;
   box-shadow: 10px 5px 10px 3px #10cd45;
 }
-.divs_parents{
-    width: 100%;
-    height: 100%;
-    border: 1px solid grey;
-    margin-left: 30px;
-    margin-top: 20px;
-    border-radius: 5px;
-    padding: 10px;
+.divs_parents {
+  width: 100%;
+  height: 100%;
+  border: 1px solid grey;
+  margin-left: 30px;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
 }
 .about_informatsion_people {
   width: 1081.74px;
@@ -443,7 +445,6 @@ section hr {
   text-align: left;
   color: #878787;
   margin-bottom: 12px;
-  margin-right: 0px;
 }
 .about_informatsion_people .End_date {
   width: 150px;
@@ -481,54 +482,89 @@ section hr {
   margin-left: 157px;
   margin-bottom: 12px;
 }
-.contacts_cards{
-    width: 1080px;
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid grey;
-    padding: 20px 0px;
+.contacts_cards {
+  width: 1081.74px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 20px 0px;
 }
-.contacts_cards:hover{
-    background-color: rgba(148, 148, 148, 0.237);
-    cursor: pointer;
-    color: black;
+.contacts_cards:hover {
+  background-color: rgba(148, 148, 148, 0.237);
+  cursor: pointer;
+  color: black;
 }
-.contacts_cards h3{
-    font-family: Barlow Semi Condensed;
-font-family: Mulish;
-font-size: 14px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0.20000000298023224px;
-text-align: left;
-color: rgba(37, 39, 51, 1);
+.contacts_cards h3 {
+  font-family: Barlow Semi Condensed;
+  font-family: Mulish;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: rgba(37, 39, 51, 1);
 }
 
-.contacts_cards p{
-    font-family: Mulish;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.10000000149011612px;
-    text-align: left;
-    color: rgba(197, 199, 205, 1);
-    padding-top: 4px;
+.contacts_cards p {
+  font-family: Mulish;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.10000000149011612px;
+  text-align: left;
+  color: rgba(197, 199, 205, 1);
+  padding-top: 4px;
 }
-.contacts_cards button{
-    width: 54px;
-height: 24px;
-gap: 0px;
-border-radius: 100px;
-opacity: 0px;
-background-color: rgba(241, 43, 44, 1);
-border: none;
-cursor: pointer;
-font-family:Arial, Helvetica, sans-serif;
-font-family: Mulish;
-font-size: 11px;
-font-weight: 700;
-line-height: 13.81px;
-letter-spacing: 0.5px;
-text-align: center;
-color: rgba(255, 255, 255, 1);
+.contacts_cards button {
+  width: 54px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background-color: rgba(241, 43, 44, 1);
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Mulish;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13.81px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+.contacts_cards .low{
+    width: 52px;
+    height: 24px;
+    border-radius: 100px;
+    opacity: 0px;
+    background-color: rgba(254, 196, 0, 1);
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Mulish;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13.81px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
+}
+.contacts_cards .normal{
+    width: 76px;
+    height: 24px;
+    gap: 0px;
+    border-radius: 100px;
+    opacity: 0px;
+    background-color: rgba(41, 204, 151, 1);  
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Mulish;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 13.81px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: rgba(255, 255, 255, 1);
 }
