@@ -533,38 +533,38 @@ section hr {
   text-align: center;
   color: rgba(255, 255, 255, 1);
 }
-.contacts_cards .low{
-    width: 52px;
-    height: 24px;
-    border-radius: 100px;
-    opacity: 0px;
-    background-color: rgba(254, 196, 0, 1);
-    border: none;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Mulish;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 13.81px;
-    letter-spacing: 0.5px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+.contacts_cards .low {
+  width: 52px;
+  height: 24px;
+  border-radius: 100px;
+  opacity: 0px;
+  background-color: rgba(254, 196, 0, 1);
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Mulish;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13.81px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
-.contacts_cards .normal{
-    width: 76px;
-    height: 24px;
-    gap: 0px;
-    border-radius: 100px;
-    opacity: 0px;
-    background-color: rgba(41, 204, 151, 1);  
-    border: none;
-    cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    font-family: Mulish;
-    font-size: 11px;
-    font-weight: 700;
-    line-height: 13.81px;
-    letter-spacing: 0.5px;
-    text-align: center;
-    color: rgba(255, 255, 255, 1);
+.contacts_cards .normal {
+  width: 76px;
+  height: 24px;
+  gap: 0px;
+  border-radius: 100px;
+  opacity: 0px;
+  background-color: rgba(41, 204, 151, 1);
+  border: none;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: Mulish;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 13.81px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
 }
